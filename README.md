@@ -45,7 +45,7 @@
 
 ## 运行方式
 ```shell script
-cd flok_init
+cd onebutton_deploy_flok
 chmod +x install.sh
 ./install.sh
 ```
