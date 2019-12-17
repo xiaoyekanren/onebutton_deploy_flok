@@ -48,4 +48,5 @@ cd flok_init
 ./install.sh
 ```
 ## 注意
->* 不提供各类软件包下载，有需要到https://cloud.tsinghua.edu.cn/d/bb82d1a7a4d64cc1bd52/自行下载
+>* 不提供各类软件包下载，有需要自行下载
+>* https://cloud.tsinghua.edu.cn/d/bb82d1a7a4d64cc1bd52/
