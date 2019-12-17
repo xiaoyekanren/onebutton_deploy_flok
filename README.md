@@ -46,6 +46,7 @@
 ## 运行方式
 ```shell script
 cd flok_init
+chmod +x install.sh
 ./install.sh
 ```
 ## 注意
