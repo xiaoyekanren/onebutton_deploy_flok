@@ -27,7 +27,7 @@
 │   ├── install.sh                  # 请执行我!!
 │   ├── package                     # jdk,hadoop,spark,pg,pip的安装包
 │   │   ├── *.gz,*.whl
-│   ├── passwd.ini                  # jdk,hadoop,spark,pg等的配置文件
+│   ├── passwd.ini                  # 配置文件!!!!!!,请修改我
 │   ├── pip2_cache                  # pip2的本地库
 │   │   ├── *whl
 │   ├── pip3_cache                  # pip3的本地库
@@ -40,6 +40,7 @@
 >* 1 apt 配置本地源,并安装
 >* 2 升级pip,并安装pip2,pip3的全部包
 >* 3 使用python2的fab命令去部署集群版的hadoop,spark 和 jdk,pg,免密钥,写hosts
+>* ps:各类软件的配置见passwd.ini
 
 
 ## 运行方式
