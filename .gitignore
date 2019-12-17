@@ -1,0 +1,8 @@
+.vscode
+.idea
+*.pyc
+.DS_Store
+package
+pip2_cache
+pip3_cache
+apt_cache
