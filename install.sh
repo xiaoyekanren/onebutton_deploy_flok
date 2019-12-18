@@ -36,17 +36,17 @@ pip2 install --no-index --find-links=${pip2_cache} -r ${py2_requirement} --user
 # use python to install jdk,hadoop,spark,postgresql
 #(!!!!before install,mush to modify password.ini,make sure true!!!!)
 #------ssh no password------
-fab -f deploy_keyfree_login.py install
+fab keyfree_install
 #-----auto write hostname to hosts,for hadoop-----
-fab -f deploy_hostname.py install
+fab hostname_install
 #------install jdk------
-fab -f deploy_jdk.py install
+fab jdk_install
 #------install hadoop,and start------
-fab -f deploy_hadoop.py install
-fab -f deploy_hadoop.py start
+fab hadoop_install
+fab hadoop_start
 #------install spark,and start------
-fab -f deploy_spark.py install
-fab -f deploy_spark start
+fab spark_install
+fab spark_start
 #------install alone node's pg,and start------
-fab -f deploy_pg.py install
-fab -f deploy_pg.py start
+fab pg_install
+fab pg_start
