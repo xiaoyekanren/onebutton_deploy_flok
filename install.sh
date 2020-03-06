@@ -26,7 +26,7 @@ sudo apt-get install python2.7 python-pip python3 python3-pip python3-apt libcur
 # upgrade pip2 and 3
 python3 -m pip install --upgrade ${pip_whl_path} --user
 python2 -m pip install --upgrade ${pip_whl_path} --user
-echo "export PATH=/home/${current_user}/.local/bin:${PATH}" >> ~/.bashrc
+echo "export PATH=/home/${current_user}/.local/bin:\${PATH}" >> ~/.bashrc
 source ~/.bashrc
 
 # install python 2 and 3's packages
